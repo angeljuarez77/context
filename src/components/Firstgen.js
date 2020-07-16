@@ -6,7 +6,7 @@ class Firstgen extends React.Component {
     return (
       <div>
         <h1>Firstgen component</h1>
-        <Secondgen />
+          <Secondgen />
       </div>
     )
   }
