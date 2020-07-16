@@ -1,6 +1,6 @@
 import React from 'react';
 import Seventhgen from './Seventhgen';
-import {UsernameContext} from "../App";
+import { UsernameContext } from '../App';
 
 class Sixthgen extends React.Component {
   render() {
@@ -8,7 +8,7 @@ class Sixthgen extends React.Component {
       <div>
         <h1>Sixthgen component</h1>
         <UsernameContext.Consumer>
-        {value =><Seventhgen name={value} />}
+          {value => <Seventhgen name={ value } />}
         </UsernameContext.Consumer>
       </div>
     )

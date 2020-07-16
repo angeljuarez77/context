@@ -4,14 +4,12 @@ import Secondgen from './Secondgen';
 
 class Firstgen extends React.Component {
   constructor(props) {
-    super(props)
-    
+    super(props);
   }
-  
   render() {
     return (
       <div>
-        <h1>Firstgen component</h1>
+        <h1>Firstgen stuff</h1>
         <Secondgen />
       </div>
     )
