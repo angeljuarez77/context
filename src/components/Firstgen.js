@@ -1,7 +1,13 @@
 import React from 'react';
 import Secondgen from './Secondgen';
 
+
 class Firstgen extends React.Component {
+  constructor(props) {
+    super(props)
+    
+  }
+  
   render() {
     return (
       <div>
